@@ -1,0 +1,47 @@
+{
+  "model": "Logistic regression",
+  "features": [
+    "wavelet-HHH_firstorder_Skewness",
+    "wavelet-HLL_glrlm_ShortRunEmphasis"
+  ],
+  "scaler_mean": [
+    -0.13015940151785715,
+    0.4594268588392857
+  ],
+  "scaler_scale": [
+    0.486039074649718,
+    0.024017067269763704
+  ],
+  "classes": [
+    0,
+    1
+  ],
+  "classification_threshold": 0.5,
+  "linear_predictor_formula": "0.25687997422119 + (-1.407488525224829 * z_feature_1) + (1.2928296042534098 * z_feature_2)",
+  "probability_formula": "1 / (1 + exp(-linear_predictor))",
+  "parameters": {
+    "C": "Infinity (unpenalized)",
+    "class_weight": "balanced",
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": null,
+    "max_iter": 10000,
+    "n_jobs": null,
+    "penalty": null,
+    "random_state": 42,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "coefficients": [
+    -1.407488525224829,
+    1.2928296042534098
+  ],
+  "intercept": [
+    0.25687997422119
+  ],
+  "best_params": {},
+  "inner_cv_auc_for_tuning_only": null
+}

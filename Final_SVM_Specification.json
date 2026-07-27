@@ -1,0 +1,58 @@
+{
+  "model": "SVM",
+  "features": [
+    "wavelet-HHH_firstorder_Skewness",
+    "wavelet-HLL_glrlm_ShortRunEmphasis"
+  ],
+  "scaler_mean": [
+    -0.13015940151785715,
+    0.4594268588392857
+  ],
+  "scaler_scale": [
+    0.486039074649718,
+    0.024017067269763704
+  ],
+  "classes": [
+    0,
+    1
+  ],
+  "classification_threshold": 0.5,
+  "decision_function_formula": "0.1338004168285507 + (-0.5367029948802636 * z_feature_1) + (0.7476853276455511 * z_feature_2)",
+  "rs_definition": "Predicted probability of GAP43-high status from the fitted SVM pipeline",
+  "parameters": {
+    "C": 0.1,
+    "break_ties": false,
+    "cache_size": 200,
+    "class_weight": "balanced",
+    "coef0": 0.0,
+    "decision_function_shape": "ovr",
+    "degree": 3,
+    "gamma": "scale",
+    "kernel": "linear",
+    "max_iter": -1,
+    "probability": true,
+    "random_state": 42,
+    "shrinking": true,
+    "tol": 0.001,
+    "verbose": false
+  },
+  "coefficients": [
+    -0.5367029948802636,
+    0.7476853276455511
+  ],
+  "intercept": [
+    0.1338004168285507
+  ],
+  "probA": [
+    -1.2955886027381873
+  ],
+  "probB": [
+    0.5361906646694583
+  ],
+  "best_params": {
+    "model__C": 0.1,
+    "model__gamma": "scale",
+    "model__kernel": "linear"
+  },
+  "inner_cv_auc_for_tuning_only": 0.8600000000000001
+}
