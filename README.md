@@ -58,9 +58,6 @@ The `.joblib` files contain complete fitted scikit-learn pipelines, including `S
 
 ## Reproducibility files
 
-- `Model_Performance_Fold_Mean_SD.csv`: fold-level mean and standard deviation for all reported metrics.
-- `Model_Performance_Patient_Bootstrap_95CI.csv`: participant-level estimates and bootstrap confidence intervals.
-- `Paired_Model_Differences.csv`: paired SVM-minus-LR differences.
 - `example_features.csv`: synthetic input. The commands above generate the corresponding output file locally.
 
 ## Data availability
