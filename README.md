@@ -52,7 +52,6 @@ For the SVM, `RS_probability_GAP43_high` is the fitted probability of GAP43-high
 
 - `Final_SVM_Specification.json` reports the feature means, scaling divisors, linear SVM coefficients, intercept, hyperparameters, and probability-calibration parameters.
 - `Final_Logistic_Regression_Specification.json` reports the corresponding LR coefficients, intercept, and preprocessing parameters.
-- `MODEL_COMPARISON.md` summarizes the repeated nested cross-validation and participant-level paired comparison.
 
 The `.joblib` files contain complete fitted scikit-learn pipelines, including `StandardScaler` and the relevant classifier.
 
